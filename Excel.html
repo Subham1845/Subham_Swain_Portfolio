@@ -117,23 +117,23 @@
         <section id="contact">
             <div class="inner">
                 <section>
-                    <form method="post" action="#">
+                    <form action="https://formspree.io/f/xbjvlnwq" method="POST">
                         <div class="fields">
                             <div class="field half">
                                 <label for="name">Name</label>
-                                <input type="text" name="name" id="name" />
+                                <input type="text" name="name" id="name" required />
                             </div>
                             <div class="field half">
                                 <label for="email">Email</label>
-                                <input type="text" name="email" id="email" />
+                                <input type="text" name="email" id="email" required />
                             </div>
                             <div class="field">
                                 <label for="message">Message</label>
-                                <textarea name="message" id="message" rows="6"></textarea>
+                                <textarea name="message" id="message" rows="6" required></textarea>
                             </div>
                         </div>
                         <ul class="actions">
-                            <li><input type="submit" value="Send Message" class="primary" /></li>
+                            <li><button type="submit" value="Send Message" class="primary">Send Message</button></li>
                             <li><input type="reset" value="Clear" /></li>
                         </ul>
                     </form>
@@ -143,21 +143,41 @@
                         <div class="contact-method">
                             <span class="icon solid alt fa-envelope"></span>
                             <h3>
-                            <a href="mailto:shubhamswain81@gmail.com">Email - Click Me!</a></h3>
+                                <a href="mailto:shubhamswain81@gmail.com">Email - Click Me!</a>
+                            </h3>
                         </div>
                     </section>
+                    <!-- <section>
+        									<div class="contact-method">
+        										<span class="icon solid alt fa-phone"></span>
+        										<h3>Phone</h3>
+        										<span>(000) 000-0000 x12387</span>
+        									</div>
+        								</section> -->
                     <section>
                         <div class="contact-method">
                             <span class="icon solid alt fa-home"></span>
-                            <h3>Address</h3>
-                            <span>Bangalore, Karnataka<br />
-                                India<br />
-                            </span>
+                            <div class="inner">
+                                <div class="major">
+                                    <h3>Address</h3>
+                                    <h5>Bangalore, Karnataka <br>India</h5>
+                                </div>
+        
+                            </div>
                         </div>
                     </section>
                 </section>
             </div>
         </section>
+        <section>
+            <footer id="footer">
+                <ul class="copyright">
+                    <li>&copy; 2023</li>
+                    <li>Design: Subham Swain</li>
+                </ul>
+            </footer>
+        </section>
+        
         
         
         </div>
